@@ -1,0 +1,1 @@
+$('input').searchDrop('Baki','Berde','Şeki','Şəmkir','Quba','Qusar','Qax','Masallı','Fuzuli')

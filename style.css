@@ -1,0 +1,29 @@
+*{
+    margin:0;padding: 0;box-sizing: border-box;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    margin:40px;
+    outline: none;
+}
+.wrapper{
+    position: relative;
+}
+.searchDropdown{
+position: absolute;
+border: 1px solid rgb(126, 121, 121);
+display: none;
+max-height: 130px;
+overflow-y: scroll;
+
+}
+.searchDropdown>span{
+    display: block;
+    width:100%;
+}
+.searchDropdown>span:hover{
+   background:#eee;
+   transition:all .3s linear;
+}
